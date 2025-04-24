@@ -17,7 +17,7 @@ class SplashViewBody extends StatelessWidget {
             child: Padding(
               padding: const EdgeInsets.only(left: 12.0, bottom: 8),
               child: Transform.translate(
-                offset: Offset(-context.screenWidth * 0.07, 0),
+                offset: Offset(-context.screenWidth * 0.1, 0),
                 child: SplashImage(
                   imagePath: Assets.manSplashVector,
                   imageHeight: context.screenHeight * 0.2,
@@ -30,7 +30,7 @@ class SplashViewBody extends StatelessWidget {
             child: Padding(
               padding: const EdgeInsets.only(right: 12.0, bottom: 8),
               child: Transform.translate(
-                offset: Offset(context.screenWidth * 0.07, 0),
+                offset: Offset(context.screenWidth * 0.1, 0),
                 child: SplashImage(
                   imagePath: Assets.womanSplashVector,
                   imageHeight: context.screenHeight * 0.2,

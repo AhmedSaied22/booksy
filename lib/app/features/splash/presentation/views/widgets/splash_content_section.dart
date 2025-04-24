@@ -78,7 +78,7 @@ class _SplashContentSectionState extends State<SplashContentSection>
             ],
           ),
           FractionallySizedBox(
-            widthFactor: 0.6,
+            widthFactor: 0.7,
             child: Text(
               AppStrings.splashSubTitle,
               textAlign: TextAlign.center,
