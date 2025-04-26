@@ -8,7 +8,7 @@ class AppColors {
 
   // text colors
   static const Color primaryTextColor = Colors.white;
-  static const Color secondaryTextColor = Color.fromARGB(255, 218, 218, 218);
+  static const Color secondaryTextColor = Color.fromARGB(255, 228, 227, 227);
   static Color hintColor =
-      const Color.fromARGB(255, 151, 149, 149).withValues(alpha: 0.7);
+      const Color.fromARGB(255, 196, 195, 195).withValues(alpha: 0.7);
 }

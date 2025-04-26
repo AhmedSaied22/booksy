@@ -14,7 +14,7 @@ class CustomSnackBar {
     switch (snackBarType) {
       case SnackBarType.alert:
         iconData = Icons.info_outline;
-        bgColor = const Color.fromARGB(255, 246, 235, 75);
+        bgColor = const Color.fromARGB(255, 201, 121, 2);
         break;
       case SnackBarType.done:
         iconData = Icons.check_circle_outline;
@@ -29,17 +29,14 @@ class CustomSnackBar {
     return SnackBar(
       content: Padding(
         padding: const EdgeInsets.all(8.0),
-        child: Directionality(
-          textDirection: TextDirection.rtl,
-          child: Row(
-            children: [
-              Icon(iconData, color: textColor),
-              const SizedBox(width: 10),
-              Expanded(
-                child: Text(message, style: context.bodyLarge),
-              ),
-            ],
-          ),
+        child: Row(
+          children: [
+            Icon(iconData, color: textColor),
+            const SizedBox(width: 10),
+            Expanded(
+              child: Text(message, style: context.bodyLarge),
+            ),
+          ],
         ),
       ),
       backgroundColor: bgColor,

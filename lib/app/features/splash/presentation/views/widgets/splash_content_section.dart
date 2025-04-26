@@ -55,7 +55,7 @@ class _SplashContentSectionState extends State<SplashContentSection>
         mainAxisAlignment: MainAxisAlignment.start,
         spacing: 20.h,
         children: [
-          SplashImage(imagePath: Assets.mainSplashVector),
+          const SplashImage(imagePath: Assets.mainSplashVector),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [

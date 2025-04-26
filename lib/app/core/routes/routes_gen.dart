@@ -1,5 +1,6 @@
 import 'package:booksy/app/app.dart';
 import 'package:booksy/app/core/routes/routes_name.dart';
+import 'package:booksy/app/features/home/presentation/views/home_view.dart';
 import 'package:booksy/app/features/splash/presentation/views/splash_view.dart';
 import 'package:flutter/material.dart';
 
@@ -11,7 +12,7 @@ class RouteGenerator {
       case RoutesName.splash:
         return _buildRoute(const SplashView(), RouteTransition.fade);
       case RoutesName.home:
-        return _buildRoute(Container(), RouteTransition.fade);
+        return _buildRoute(const HomeView(), RouteTransition.fade);
       default:
         return _errorRoute();
     }

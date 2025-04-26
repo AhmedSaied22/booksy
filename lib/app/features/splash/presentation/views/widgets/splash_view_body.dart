@@ -38,7 +38,7 @@ class SplashViewBody extends StatelessWidget {
               ),
             ),
           ),
-          SplashContentSection(),
+          const SplashContentSection(),
         ],
       ),
     );

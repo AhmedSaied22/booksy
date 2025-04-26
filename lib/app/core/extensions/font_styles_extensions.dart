@@ -39,7 +39,7 @@ extension FontExtensions on BuildContext {
       );
 
   TextStyle get bodyLarge => textStyle(
-        size: AppFonts.sizes.s20,
+        size: AppFonts.sizes.s18,
         weight: AppFonts.weights.normal,
         letterSpacing: 1.3,
         fontFamily: AppFonts.primaryFont,
@@ -55,7 +55,7 @@ extension FontExtensions on BuildContext {
         size: AppFonts.sizes.s24,
         weight: AppFonts.weights.bold,
         letterSpacing: 1.3,
-        fontFamily: AppFonts.primaryFont,
+        fontFamily: AppFonts.secondaryFont,
       );
 
   TextStyle get errorText => textStyle(
