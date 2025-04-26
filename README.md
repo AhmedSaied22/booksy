@@ -77,9 +77,9 @@ The app focuses on delivering a smooth, friendly, and responsive user experience
 ### Book List Screen
 ![Book List](assets/screenshots/booklist.JPG)
 ### Scroll up button
-(assets/screenshots/scrollbutton.JPG)
+![ScrollUP](assets/screenshots/scrollbutton.JPG)
 ### offline mode
-(assets/screenshots/offline.JPG)
+![OFFLINE](assets/screenshots/offline.JPG)
 ---
 
 ## 📎 Links
