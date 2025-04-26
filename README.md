@@ -77,10 +77,6 @@ The app focuses on delivering a smooth, friendly, and responsive user experience
 ### Book List Screen
 ![Book List](assets/screenshots/book_list.png)
 
-### Scroll To Top Button
-![Scroll Button](assets/screenshots/scroll_button.png)
-
-*(Make sure to upload your screenshots inside `assets/screenshots/` folder)*
 
 ---
 
